@@ -46,22 +46,22 @@ function Message() {
   return (
     <div>
       <Navbar />
-      <form onSubmit={addMessage} className="flex flex-col gap-5 form-control">
+      <form onSubmit={addMessage} className="flex flex-col gap-5 form-control p-5">
         <input
           type="text"
           name="name"
           placeholder="Name"
           onChange={handleChangeName}
-          className="input input-bordered w-full max-w-xs"
+          className="input input-bordered w-full max-w-s"
         />
         <input
           type="text"
           name="content"
           placeholder="Write your message..."
           onChange={handleChangeContent}
-          className="input input-bordered w-full max-w-xs"
+          className="input input-bordered w-full max-w-s h-40"
         />
-        <button className="btn btn-primary" type="submit">
+        <button className="btn btn-primary max-w-s" type="submit">
           Submit
         </button>
       </form>

@@ -25,8 +25,8 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div>
-        <div className="flex flex-row flex-wrap gap-2.5 justify-center bg-gradient-to-r from-cyan-500 to-blue-500 p-5">
+      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-5 h-screen">
+        <div className="flex flex-row flex-wrap gap-2.5 justify-center">
           {associations.map((association) => (
             <Link to={`/${association.slug}`}>
               <Card

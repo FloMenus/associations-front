@@ -80,7 +80,7 @@ function Association() {
           ))}
       </div>
       <Link to ={`/${association.slug}/message`}>
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full m-5">
           Add a message
         </button>
       </Link>
